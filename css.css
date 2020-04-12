@@ -1,6 +1,7 @@
 *{box-sizing: border-box; font-size:10pt;}
 /*div{border: 1px solid black;}*/
 .container,.container-fluid, .con1 {margin: 0px 0px 0px 0px; padding : 0px 0px 0px 0px;}
+.container-fluid{padding:0px;margin:0px;}
 .logo img{width:50%;}
 .header{margin:0px; padding: 0px; background-color:#fc0;}
 .header div{margin: auto; padding:0 0 0 0;}
@@ -18,3 +19,74 @@
 .landname{font-size:11pt; font-weight: bold;}
 .cuntryname{font-size:9pt;}
 .subtitle{font-size:12pt; color:cornflowerblue; font-weight: bold;}
+
+/*card slider start*/
+
+.card{
+    border:1px solid #929292;
+}
+.carousel .carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+    height:50%;
+    margin: 4px;
+    border-color: transparent;
+}
+.carousel-indicators li {	
+    background: #ababab;
+}
+.carousel-indicators li.active {	
+    background: #555;
+}
+.card-body a{
+    color:white;
+}
+/*card slider end*/
+
+.howtotitle{
+    color:dodgerblue;
+    font-weight: bold;
+
+}
+.modalimg{
+    width:100%;
+}
+.howtotext{
+    line-height: 150%;
+    text-align: justify;
+
+}
+
+.citylist{
+    padding: 0;
+   margin:0;
+    height:150px;
+    
+
+}
+.area{
+    list-style-type:none;
+    padding: 0;
+    left:-50px;
+    margin: 0;
+}
+.li-item a{
+    display:block;
+}
+.li-item{
+    float:left; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.sns-area img{
+    width:32px;
+    margin:5px;
+}
+.footerend{
+    background-color:#37454d;
+}
+.footer{
+    background-color:#293339;
+}
