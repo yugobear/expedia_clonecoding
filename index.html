@@ -2,8 +2,15 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
+        <title>익스피디아+트리바고</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta property="og:url"                content="https://yugobear.github.io/expedia_copy/" />
+        <meta property="og:type"               content="website" />
+        <meta property="og:title"              content="익스피디아+트리바고" />
+        <meta property="og:description"        content="익스피디아+트리바고 혼종" />
+        <meta property="og:image"              content="https://github.com/yugobear/expedia_copy/blob/master/img/opengraph.jpg?raw=true" />
+
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 
@@ -104,7 +111,7 @@
                     </div>
                 </div>
             </div>
-            <div class="con-12 maincon my-0 mx-0 px-0 py-0">
+            <div class="col-12 maincon my-0 mx-0 px-0 py-0">
                 <br>
                 <div class="col-11 col-sm-11 col-lg-7 mx-auto alert alert-warning alert-dismissible fade show con con_1" role="alert">
 
@@ -304,325 +311,327 @@ Launch demo modal
                 </div>
             </div> 
             <!--        maincon끝-->
-            <div class="row ">
-                <div class="col-12 contents ">
-                    <br>
-                    <div class="row">
-                        <div class="col-11 col-sm-11 col-lg-7 mx-auto ">
-                            <p class="subtitle">인기 여행지, 클릭 한 번이면 확인하실 수 있어요!</p>
+            <div class="container-fluid my-0 mx-0 px-0 py-0">
+                <div class="row w-100">
+                    <div class="col-11 contents">
+                        <br>
+                        <div class="row">
+                            <div class="col-11 col-sm-11 col-lg-7 mx-auto ">
+                                <p class="subtitle">인기 여행지, 클릭 한 번이면 확인하실 수 있어요!</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-lg-7 mx-auto">
+                        <div class="row">
+                            <div class="col-11 col-sm-11 col-lg-7 mx-auto">
 
-                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="topcity-tab" data-toggle="tab" href="#topcity" role="tab" aria-controls="topcity" aria-selected="true">Top 인기도시</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="topplace-tab" data-toggle="tab" href="#topplace" role="tab" aria-controls="topplace" aria-selected="false">Top 인기여행지</a>
-                                </li>
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="topcity-tab" data-toggle="tab" href="#topcity" role="tab" aria-controls="topcity" aria-selected="true">Top 인기도시</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="topplace-tab" data-toggle="tab" href="#topplace" role="tab" aria-controls="topplace" aria-selected="false">Top 인기여행지</a>
+                                    </li>
 
-                            </ul>
-                            <div class="tab-content w-100" id="myTabContent">
-                                <div class="tab-pane fade show active col-12" id="topcity" role="tabpanel" aria-labelledby="topcity-tab">
-                                    <!--                                   인기도시-->
-                                    <!-- card slider start -->
+                                </ul>
+                                <div class="tab-content w-100" id="myTabContent">
+                                    <div class="tab-pane fade show active col-12" id="topcity" role="tabpanel" aria-labelledby="topcity-tab">
+                                        <!--                                   인기도시-->
+                                        <!-- card slider start -->
 
-                                    <!--Carousel Wrapper-->
-                                    <div id="multi-item-example" class="carousel slide carousel-multi-item my-3" data-ride="carousel">
+                                        <!--Carousel Wrapper-->
+                                        <div id="multi-item-example" class="carousel slide carousel-multi-item my-3" data-ride="carousel">
 
-                                        <!--Controls-->
-                                        <div class="controls-top">
-                                            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-                                            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                                            <!--Controls-->
+                                            <div class="controls-top">
+                                                <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                                                <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                                            </div>
+                                            <!--/.Controls-->
+
+                                            <!--Indicators-->
+
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                                                <li data-target="#multi-item-example" data-slide-to="1"></li>
+                                                <li data-target="#multi-item-example" data-slide-to="2"></li>
+                                            </ol>
+
+                                            <!--/.Indicators-->
+
+                                            <!--Slides-->
+                                            <div class="carousel-inner" role="listbox">
+
+                                                <!--First slide-->
+                                                <div class="carousel-item active">
+
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/topcity01.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">마추픽추</h4>
+                                                                    <p class="card-text">잉카 제국의 본거지를 방문하여 흥미로운 유적지와 북적이는 대도시, 광활한 자연 경관과 거친 강물, 그리고 아마존의 밀림을 탐험해 보세요.</p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 clearfix d-none d-md-block">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/topcity02.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">파리</h4>
+                                                                    <p class="card-text">박물관, 예술, 연극 등으로 유명한 이 도시의 문화 명소로는 조지 퐁피두 박물관, 루브르 박물관, 파리 오페라 등이 있습니다.</p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 clearfix d-none d-md-block">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/topcity03.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">팜스프링스</h4>
+                                                                    <p class="card-text">골퍼들의 천국, 사막 지대의 멋진 자연경관, 천연 온천까지 즐길 수 있는 리조트 타운. 골프 코스들도 잘 갖추고 있어서, 골퍼들의 천국!</p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <!--/.First slide-->
+
+                                                <!--Second slide-->
+                                                <div class="carousel-item">
+
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/topcity04.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">로스앤젤레스</h4>
+                                                                    <p class="card-text">영화계 스타를 만나보고 싶으시다고요? 저녁 노을 질 무렵 시내 멋진 빌딩의 루프 탑 바에서 칵테일을 한 잔 해 보세요. </p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 clearfix d-none d-md-block">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/topcity05.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">런던</h4>
+                                                                    <p class="card-text">멋진 스타일을 뽐내는 쇼어디치부터 펑키한 분위기의 캠던, 시크한 포토벨로 로드에 이르기까지 런던은 다양한 풍경이 하나로 어우러진 곳입니다.</p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 clearfix d-none d-md-block">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/topcity06.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">뉴욕</h4>
+                                                                    <p class="card-text">뉴욕을 대표하는 최고의 명소만 짧게 둘러 보아도 일주일 가까운 시간이 순식간에 지나갈 것! 파이어 스테이트 빌딩, 자유의 여신상, 센트럴 파크 </p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <!--/.Second slide-->
+
+                                                <!--Third slide-->
+                                                <div class="carousel-item">
+
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/topcity07.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">홍콩</h4>
+                                                                    <p class="card-text">어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고</p>
+                                                                    <a class="btn btn-primary">Button</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 clearfix d-none d-md-block">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/topcity08.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">도쿄</h4>
+                                                                    <p class="card-text">어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고</p>
+                                                                    <a class="btn btn-primary">Button</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 clearfix d-none d-md-block">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/topcity09.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">브뤼셀</h4>
+                                                                    <p class="card-text">어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고</p>
+                                                                    <a class="btn btn-primary">Button</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <!--/.Third slide-->
+
+                                            </div>
+                                            <!--/.Slides-->
+
+
+
+
                                         </div>
-                                        <!--/.Controls-->
+                                        <!--/.Carousel Wrapper-->
 
-                                        <!--Indicators-->
 
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-                                            <li data-target="#multi-item-example" data-slide-to="1"></li>
-                                            <li data-target="#multi-item-example" data-slide-to="2"></li>
-                                        </ol>
-
-                                        <!--/.Indicators-->
-
-                                        <!--Slides-->
-                                        <div class="carousel-inner" role="listbox">
-
-                                            <!--First slide-->
-                                            <div class="carousel-item active">
-
-                                                <div class="row">
-                                                    <div class="col-md-4">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/topcity01.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">마추픽추</h4>
-                                                                <p class="card-text">잉카 제국의 본거지를 방문하여 흥미로운 유적지와 북적이는 대도시, 광활한 자연 경관과 거친 강물, 그리고 아마존의 밀림을 탐험해 보세요.</p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-4 clearfix d-none d-md-block">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/topcity02.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">파리</h4>
-                                                                <p class="card-text">박물관, 예술, 연극 등으로 유명한 이 도시의 문화 명소로는 조지 퐁피두 박물관, 루브르 박물관, 파리 오페라 등이 있습니다.</p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-4 clearfix d-none d-md-block">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/topcity03.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">팜스프링스</h4>
-                                                                <p class="card-text">골퍼들의 천국, 사막 지대의 멋진 자연경관, 천연 온천까지 즐길 수 있는 리조트 타운. 골프 코스들도 잘 갖추고 있어서, 골퍼들의 천국!</p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <!--/.First slide-->
-
-                                            <!--Second slide-->
-                                            <div class="carousel-item">
-
-                                                <div class="row">
-                                                    <div class="col-md-4">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/topcity04.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">로스앤젤레스</h4>
-                                                                <p class="card-text">영화계 스타를 만나보고 싶으시다고요? 저녁 노을 질 무렵 시내 멋진 빌딩의 루프 탑 바에서 칵테일을 한 잔 해 보세요. </p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-4 clearfix d-none d-md-block">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/topcity05.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">런던</h4>
-                                                                <p class="card-text">멋진 스타일을 뽐내는 쇼어디치부터 펑키한 분위기의 캠던, 시크한 포토벨로 로드에 이르기까지 런던은 다양한 풍경이 하나로 어우러진 곳입니다.</p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-4 clearfix d-none d-md-block">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/topcity06.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">뉴욕</h4>
-                                                                <p class="card-text">뉴욕을 대표하는 최고의 명소만 짧게 둘러 보아도 일주일 가까운 시간이 순식간에 지나갈 것! 파이어 스테이트 빌딩, 자유의 여신상, 센트럴 파크 </p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <!--/.Second slide-->
-
-                                            <!--Third slide-->
-                                            <div class="carousel-item">
-
-                                                <div class="row">
-                                                    <div class="col-md-4">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/topcity07.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">홍콩</h4>
-                                                                <p class="card-text">어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고</p>
-                                                                <a class="btn btn-primary">Button</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-4 clearfix d-none d-md-block">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/topcity08.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">도쿄</h4>
-                                                                <p class="card-text">어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고</p>
-                                                                <a class="btn btn-primary">Button</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-4 clearfix d-none d-md-block">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/topcity09.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">브뤼셀</h4>
-                                                                <p class="card-text">어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고어쩌고저쩌고</p>
-                                                                <a class="btn btn-primary">Button</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <!--/.Third slide-->
-
-                                        </div>
-                                        <!--/.Slides-->
+                                        <!-- card slider end-->
 
 
 
 
                                     </div>
-                                    <!--/.Carousel Wrapper-->
-
-
-                                    <!-- card slider end-->
 
 
 
+                                    <div class="tab-pane fade col-12" id="topplace" role="tabpanel" aria-labelledby="topplace-tab">
+                                        <!--                                인기여행지-->
 
-                                </div>
+                                        <!-- card slider start -->
 
+                                        <!--Carousel Wrapper-->
+                                        <div id="multi-item-example1" class="carousel slide carousel-multi-item my-3" data-ride="carousel">
 
-
-                                <div class="tab-pane fade col-12" id="topplace" role="tabpanel" aria-labelledby="topplace-tab">
-                                    <!--                                인기여행지-->
-
-                                    <!-- card slider start -->
-
-                                    <!--Carousel Wrapper-->
-                                    <div id="multi-item-example1" class="carousel slide carousel-multi-item my-3" data-ride="carousel">
-
-                                        <!--Controls-->
-                                        <div class="controls-top">
-                                            <a class="btn-floating" href="#multi-item-example1" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-                                            <a class="btn-floating" href="#multi-item-example1" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-                                        </div>
-                                        <!--/.Controls-->
-
-                                        <!--Indicators-->
-
-                                        <ol class="carousel-indicators">
-                                            <li data-target="#multi-item-example1" data-slide-to="0" class="active"></li>
-                                            <li data-target="#multi-item-example1" data-slide-to="1"></li>
-
-                                        </ol>
-
-                                        <!--/.Indicators-->
-
-                                        <!--Slides-->
-                                        <div class="carousel-inner" role="listbox">
-
-                                            <!--First slide-->
-                                            <div class="carousel-item active">
-
-                                                <div class="row">
-                                                    <div class="col-md-4">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/toptrip01.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">북미</h4>
-                                                                <p class="card-text">북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카</p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-4 clearfix d-none d-md-block">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/toptrip02.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">아시아</h4>
-                                                                <p class="card-text">아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아</p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-4 clearfix d-none d-md-block">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/toptrip03.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">유럽</h4>
-                                                                <p class="card-text">유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽</p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
+                                            <!--Controls-->
+                                            <div class="controls-top">
+                                                <a class="btn-floating" href="#multi-item-example1" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                                                <a class="btn-floating" href="#multi-item-example1" data-slide="next"><i class="fa fa-chevron-right"></i></a>
                                             </div>
-                                            <!--/.First slide-->
+                                            <!--/.Controls-->
 
-                                            <!--Second slide-->
-                                            <div class="carousel-item">
+                                            <!--Indicators-->
 
-                                                <div class="row">
-                                                    <div class="col-md-4">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/toptrip04.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">오세아니아</h4>
-                                                                <p class="card-text">오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아 </p>
-                                                                <a class="btn btn-primary">보러가기</a>
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#multi-item-example1" data-slide-to="0" class="active"></li>
+                                                <li data-target="#multi-item-example1" data-slide-to="1"></li>
+
+                                            </ol>
+
+                                            <!--/.Indicators-->
+
+                                            <!--Slides-->
+                                            <div class="carousel-inner" role="listbox">
+
+                                                <!--First slide-->
+                                                <div class="carousel-item active">
+
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/toptrip01.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">북미</h4>
+                                                                    <p class="card-text">북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카북아메리카</p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 clearfix d-none d-md-block">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/toptrip02.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">아시아</h4>
+                                                                    <p class="card-text">아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아아시아</p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 clearfix d-none d-md-block">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/toptrip03.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">유럽</h4>
+                                                                    <p class="card-text">유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽유럽</p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
 
-                                                    <div class="col-md-4 clearfix d-none d-md-block">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/toptrip05.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">남미</h4>
-                                                                <p class="card-text">남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카</p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-md-4 clearfix d-none d-md-block">
-                                                        <div class="card mb-2">
-                                                            <img class="card-img-top" src="img/toptrip06.jpg"
-                                                                 alt="Card image cap">
-                                                            <div class="card-body">
-                                                                <h4 class="card-title">아프리카</h4>
-                                                                <p class="card-text">아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카</p>
-                                                                <a class="btn btn-primary">보러가기</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
+                                                <!--/.First slide-->
 
+                                                <!--Second slide-->
+                                                <div class="carousel-item">
+
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/toptrip04.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">오세아니아</h4>
+                                                                    <p class="card-text">오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아오세아니아 </p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 clearfix d-none d-md-block">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/toptrip05.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">남미</h4>
+                                                                    <p class="card-text">남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카남아메리카</p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-4 clearfix d-none d-md-block">
+                                                            <div class="card mb-2">
+                                                                <img class="card-img-top" src="img/toptrip06.jpg"
+                                                                     alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h4 class="card-title">아프리카</h4>
+                                                                    <p class="card-text">아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카아프리카</p>
+                                                                    <a class="btn btn-primary">보러가기</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <!--/.Second slide-->
                                             </div>
-                                            <!--/.Second slide-->
+                                            <!--/.Slides-->
                                         </div>
-                                        <!--/.Slides-->
+                                        <!--/.Carousel Wrapper-->
+                                        <!-- card slider end-->
                                     </div>
-                                    <!--/.Carousel Wrapper-->
-                                    <!-- card slider end-->
                                 </div>
                             </div>
                         </div>
@@ -773,47 +782,47 @@ Launch demo modal
             </div>
             <!--이용방법 끝-->
 
+            <div class="container-fluid my-0 mx-0 px-0 py-0">
+                <div class="row footer mt-5">
+                    <div class="col-11 col-sm-11 col-lg-7 mx-auto">
 
-            <div class="row footer mt-5">
-                <div class="col-11 col-sm-11 col-lg-7 mx-auto">
+                        <p class="fwhite pt-5 mt-5">
+                            © 2020 Expedia, Inc, an Expedia Group Company. / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte Ltd. All rights reserved.<br>
+                            전화 : +02-3480-0118 | 이메일 : travel@support.expedia.co.kr<br>
+                            트래블 파트너 익스체인지 코리아 주식회사 | 사업자등록번호 821-88-01025<br>
+                            <br>
+                            대표이사:김상범<br>
+                            (주) 벡스트래블코리아 | 서울시 종로구 종로5길 7, Tower8 9층<br>
+                            <br>
+                            대표이사 : 조나단싱클레어닐ㅣ사업자등록번호 : 724-86-00245ㅣ사업자정보확인<br>
+                            관광사업자등록번호 : 제2016-000008호 | 통신판매업신고번호 : 2015-서울종로-1091호<br>
 
-                    <p class="fwhite pt-5 mt-5">
-                        © 2020 Expedia, Inc, an Expedia Group Company. / Expedia Asia Holdings Mauritius / BEX Travel Asia Pte Ltd. All rights reserved.<br>
-                        전화 : +02-3480-0118 | 이메일 : travel@support.expedia.co.kr<br>
-                        트래블 파트너 익스체인지 코리아 주식회사 | 사업자등록번호 821-88-01025<br>
+                        </p>
                         <br>
-                        대표이사:김상범<br>
-                        (주) 벡스트래블코리아 | 서울시 종로구 종로5길 7, Tower8 9층<br>
-                        <br>
-                        대표이사 : 조나단싱클레어닐ㅣ사업자등록번호 : 724-86-00245ㅣ사업자정보확인<br>
-                        관광사업자등록번호 : 제2016-000008호 | 통신판매업신고번호 : 2015-서울종로-1091호<br>
+                        <div class="sns-area mb-5">
+                            <a href=""><img src="img/sns/fbicon.png"></a>
+                            <a href=""><img src="img/sns/twticon.png"></a>
+                            <a href=""><img src="img/sns/instaicon.png"></a>
+                            <a href=""><img src="img/sns/yticon.png"></a>
+                            <a href=""><img src="img/sns/linkin.png"></a>
+                        </div>
 
-                    </p>
-                    <br>
-                    <div class="sns-area mb-5">
-                        <a href=""><img src="img/sns/fbicon.png"></a>
-                        <a href=""><img src="img/sns/twticon.png"></a>
-                        <a href=""><img src="img/sns/instaicon.png"></a>
-                        <a href=""><img src="img/sns/yticon.png"></a>
-                        <a href=""><img src="img/sns/linkin.png"></a>
+                    </div>
+                </div>
+                <div class="row pt-5 pb-3">
+                    <div class="col-12 mx-auto">
+                        <a href="">
+                            <img class="rounded mx-auto d-block" src="img/EG_Lockup_White_on_Blue.svg" alt="expdeia group">
+                        </a>
+                        <br>
+                        <p class="fwhite text-center">
+                            2020 Expdeia group | 어쩌구 저쩌구
+                        </p>
                     </div>
 
+
                 </div>
             </div>
-            <div class="row footerend pt-5 pb-3">
-                <div class="con-12 mx-auto">
-                    <a href="">
-                        <img class="rounded mx-auto d-block" src="img/EG_Lockup_White_on_Blue.svg" alt="expdeia group">
-                    </a>
-                    <br>
-                    <p class="fwhite text-center">
-                        2020 Expdeia group | 어쩌구 저쩌구
-                    </p>
-                </div>
-
-
-            </div>
-
         </div>
     </body>
 </html>
